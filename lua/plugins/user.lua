@@ -7,7 +7,9 @@
 return {
 
   -- == Examples of Adding Plugins ==
-
+  {
+    vim.api.nvim_set_option("clipboard", "unnamedplus"),
+  },
   "andweeb/presence.nvim",
   {
     "ray-x/lsp_signature.nvim",
